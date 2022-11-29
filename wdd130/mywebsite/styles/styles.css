@@ -71,10 +71,26 @@ footer {
 }
 footer img { 
   width: 25px;  
-  
+}
+.socials img{
+  margin: 8px;
 }
 .gamebox{
   border: solid #2E6CA4 5px;
+  display: grid;
+  grid-column: 1fr;
+  border-radius: 2px;
+}
+.yellow
+{
+  border: solid #E3BD61 5px;
+  display: grid;
+  grid-column: 1fr;
+  border-radius: 2px;
+}
+.green
+{
+  border: solid #73A43F 5px;
   display: grid;
   grid-column: 1fr;
   border-radius: 2px;
