@@ -83,8 +83,7 @@ footer img {
 }
 .fireside{
   display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 9fr 1fr;
 }
 .yellow
 {
@@ -104,6 +103,7 @@ p {
   font-family: var(--paragraph-font);
   color: var(--paragraph-background-color);
   padding: 1em;
+  
 }
 
 .home-click,.game-grid{
@@ -121,6 +121,7 @@ p {
 }
 .home-click p{
   color: #2E6CA4;
+  font-size: 25px;
   align-items: center;
   display: grid;
   grid-column: 9fr;
@@ -135,11 +136,13 @@ p {
 }
 .business p{
   color: #A42212;
+  text-align: center;
 }
 .business img{
   margin: auto;
   display: grid;
-  grid-column: 7/10;
+  
+  grid-column: 9/10;
 }
 .empty-space{
   padding: 2em; 
